@@ -72,13 +72,7 @@ def search_tweets(query, bearer_token = bearer_token, next_token = None):
         
     else:
         return response.json()
- 
-    
-# search term
-search_tweet = search_tweets(query = "Black Widow")
 
-# 4 main keys
-search_tweet.keys()
     
     
 def create_dataframes(json_tweets):
@@ -167,7 +161,7 @@ def create_dataframes(json_tweets):
         return tweets, users
     
 
-def more_tweets(max_requests, search_tweet,  main_tweets, main_users, main_places):
+def more_tweets(max_requests, query, search_tweet, main_tweets, main_users, main_places):
     for i in range(1, max_requests):
     
         # Check if there is a next token (another page)
@@ -176,7 +170,7 @@ def more_tweets(max_requests, search_tweet,  main_tweets, main_users, main_place
             print(i, search_tweet["meta"]["next_token"])
     
             # Collect data from next token
-            new_tweets = search_tweets(query = "Black Widow", next_token = search_tweet['meta']['next_token'])
+            new_tweets = search_tweets(query = query, next_token = search_tweet['meta']['next_token'])
             search_tweet = new_tweets
     
             # Check if any tweet has enabled the location,
