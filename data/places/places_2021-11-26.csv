@@ -1,13 +1,15 @@
-,country,full_name,geo.place_id,name
-0,Australia,"Queensland, Australia",7e347291be7bbab4,Queensland
-1,Estados Unidos,"Washington, DC",01fbe706f872cb32,Washington
-2,Estados Unidos,"Myrtle Beach, SC",17a83a55221b0671,Myrtle Beach
-3,España,"Madrid, España",206c436ce43a43a3,Madrid
-4,Indonesia,"Cimahi Utara, Indonesia",e2b550b9dddf7c87,Cimahi Utara
-5,Alemania,"Ramstein-Miesenbach, Deutschland",75c3cd2ed9856cc3,Ramstein-Miesenbach
-6,Estados Unidos,"Florida, USA",4ec01c9dbc693497,Florida
-7,Reino Unido,"Belfast, Northern Ireland",28679b23ed15b380,Belfast
-8,Botsuana,Botsuana,8a927a7056322151,Botsuana
-9,República Islámica de Irán,República Islámica de Irán,272596500e51c07a,República Islámica de Irán
-10,Estados Unidos,"Orlando, FL",55b4f9e5c516e0b6,Orlando
-11,Estados Unidos,"Pine Hills, FL",0a7fa82a81bf51f4,Pine Hills
+country,full_name,geo.place_id,name
+Suiza,"Zúrich, Suiza",db94c1cccc67c4f4,Zúrich
+Estados Unidos,"Queens, NY",00c39537733fa112,Queens
+Australia,"Sydney, New South Wales",0073b76548e5984f,Sydney
+Estados Unidos,"Westville, NJ",3f752fbaeee49d03,Westville
+Reino Unido,"Scotland, United Kingdom",0af014accd6f6e99,Scotland
+Estados Unidos,"Harrison, NY",00efea4f0eed2bc6,Harrison
+España,"Valladolid, España",2afe3164f39d1b83,Valladolid
+Nueva Zelanda,"Auckland, New Zealand",0022e3c837579650,Auckland
+Estados Unidos,"Park Forest Village, PA",d581e007d22ddf93,Park Forest Village
+Reino Unido,"Halesowen, England",77baca01fc05edc8,Halesowen
+Reino Unido,"High Wycombe, England",3abd70ca60af5075,High Wycombe
+Canadá,"Burlington, Ontario",7059f9b9f31d4c4a,Burlington
+Estados Unidos,"Minnesota, USA",9807c5c5f7a2c6ce,Minnesota
+Reino Unido,"Ryde, England",2222f3f9b834c622,Ryde

@@ -1,15 +1,11 @@
-,country,full_name,geo.place_id,name
-0,Estados Unidos,"Seattle, WA",300bcc6e23a88361,Seattle
-1,Estados Unidos,"Oak Hills Place, LA",a2eedf12f7497729,Oak Hills Place
-2,Estados Unidos,Christmas Corner,07d9edc69b088001,Christmas Corner
-3,Italia,Italia,c799e2d3a79f810e,Italia
-4,Francia,"Colombes, France",4e79ed711b3afca8,Colombes
-5,Estados Unidos,"Sugar Land, TX",7a41192a2879ee24,Sugar Land
-6,Estados Unidos,"Camuy, Puerto Rico",01ad28a428fd291d,Camuy
-7,Canadá,"Toronto, Ontario",3797791ff9c0e4c6,Toronto
-8,Australia,"Queensland, Australia",7e347291be7bbab4,Queensland
-9,Estados Unidos,"Washington, DC",01fbe706f872cb32,Washington
-10,Estados Unidos,"Myrtle Beach, SC",17a83a55221b0671,Myrtle Beach
-11,España,"Madrid, España",206c436ce43a43a3,Madrid
-12,Indonesia,"Cimahi Utara, Indonesia",e2b550b9dddf7c87,Cimahi Utara
-13,Alemania,"Ramstein-Miesenbach, Deutschland",75c3cd2ed9856cc3,Ramstein-Miesenbach
+country,full_name,geo.place_id,name
+Francia,"Brive-la-Gaillarde, Francia",115f99eeecc7a85c,Brive-la-Gaillarde
+Estados Unidos,"Geneva, NY",289cb0265e285489,Geneva
+Estados Unidos,"Corpus Christi, TX",a3d770a00f15bcb1,Corpus Christi
+Reino Unido,"Livingston, Scotland",302574b42b6088a1,Livingston
+Estados Unidos,"Raleigh, NC",161d2f18e3a0445a,Raleigh
+Argentina,"Corrientes, Argentina",00a961d91f76dde8,Corrientes
+México,"Benito Juárez, Distrito Federal",7d93122509633720,Benito Juárez
+México,"Puebla, México",0ac8a42f23e8f736,Puebla
+Estados Unidos,"San Marcos, CA",a2c84129f9dcf69f,San Marcos
+Estados Unidos,"Chicago, IL",1d9a5370a355ab0c,Chicago

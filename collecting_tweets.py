@@ -9,6 +9,7 @@ Created on Tue Nov 30 20:59:28 2021
 import os
 import requests
 import pandas as pd
+import datetime as dt
 from dotenv import load_dotenv
 
 import warnings
@@ -117,6 +118,9 @@ def create_dataframes(json_tweets):
         # id to string
         tweets["tweet_id"] = tweets["tweet_id"].astype(str)
         
+        # from string to datetime
+        tweets["created_at"] = pd.to_datetime(tweets["created_at"], utc = True)
+        
         # List of users in tweets dataframe to only 
         # keep users from tweets dataframe
         user_list = tweets.author_id.unique()
@@ -124,6 +128,9 @@ def create_dataframes(json_tweets):
         
         # id to string
         users["user_id"] = users["user_id"].astype(str)
+        
+        # from string to datetime
+        tweets["created_at"] = pd.to_datetime(tweets["created_at"], utc = True)
         
         # Drop cols
         tweets = tweets.drop(['referenced_tweets','author_id','geo.place_id'], axis = 1)
