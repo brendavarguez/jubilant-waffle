@@ -16,14 +16,13 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # loadinng credenttials as environmen variables
-load_dotenv('twitter_kafka_credentials.env', override = True)
+load_dotenv('data/envs/kafka.env', override = True)
 
 
 # getting twitter credentials
 twitter_key = os.environ.get('api_key')
 twitter_secret_key = os.environ.get('secret_key')
 bearer_token = os.environ.get('bearer_token')
-
 
 def search_tweets(query, bearer_token = bearer_token, next_token = None):    
     
@@ -174,7 +173,7 @@ def more_tweets(max_requests, query, search_tweet, main_tweets, main_users, main
         # Check if there is a next token (another page)
         # that matches the desired query
         if 'next_token' in search_tweet['meta'].keys():
-            print(i, search_tweet["meta"]["next_token"])
+            #print(i, search_tweet["meta"]["next_token"])
     
             # Collect data from next token
             new_tweets = search_tweets(query = query, next_token = search_tweet['meta']['next_token'])
